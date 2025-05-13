@@ -1,0 +1,85 @@
+/* Dashboard Container */
+.dashboard-container {
+ padding: 20px;
+ font-family: 'Segoe UI', sans-serif;
+ background-color: #fdfdfd;
+}
+
+/* Subject Cards */
+.subject-card {
+ background: #f9f9f9;
+ border: 1px solid #ccc;
+ margin-top: 25px;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.subject-card h3 {
+ margin-bottom: 15px;
+ color: #333;
+}
+
+/* Table Styling */
+table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-bottom: 15px;
+ background-color: white;
+ border-radius: 8px;
+ overflow: hidden;
+}
+
+th, td {
+ border: 1px solid #ddd;
+ padding: 12px;
+ text-align: center;
+ font-size: 14px;
+}
+
+th {
+ background-color: #f0f0f0;
+ font-weight: 600;
+}
+
+td {
+ background-color: #fafafa;
+}
+
+tr:nth-child(even) td {
+ background-color: #f5f5f5;
+}
+
+/* Button Styling */
+.analysis-btn {
+ padding: 10px 20px;
+ background-color: #0078d4;
+ color: white;
+ border: none;
+ border-radius: 6px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+
+.analysis-btn:hover {
+ background-color: #005fa3;
+}
+
+.back-btn {
+ margin-top: 20px;
+}
+
+/* Chart Container */
+.chart-container {
+ max-width: 400px;
+ margin: 20px auto;
+}
+
+/* Page Header */
+.subject-header {
+ margin-bottom: 30px;
+ text-align: center;
+ font-size: 22px;
+ color: #222;
+ font-weight: bold;
+}
