@@ -17,4 +17,4 @@ EduTrack is a MERN stack-based portal for tracking student test performance with
 - Teacher login
 - Student test score tracking
 - Pie chart analysis
-- PDF report generation
+
