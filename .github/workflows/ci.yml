@@ -1,10 +1,10 @@
 name: EduTrack CI
 
 on:
+  workflow_dispatch:     # ✅ Allows manual trigger
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [ main ]   # ✅ Still triggers on push
+
 
 jobs:
   build:
